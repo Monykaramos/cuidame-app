@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 # ==========================================
 st.set_page_config(page_title="CuidaMe - Conectando Cuidados", page_icon="logo.png", layout="wide")
 
-DATABASE_URL = "postgresql+psycopg2://postgres:senha@localhost:5432/cuidame"
+DATABASE_URL = st.secrets["DATABASE_URL"]
 
 if 'pagina_atual' not in st.session_state:
     st.session_state.pagina_atual = 'home'
