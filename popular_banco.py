@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, text
 
 # Ajuste sua senha aqui
-DATABASE_URL = "postgresql+psycopg2://postgres:senha@localhost:5432/cuidame"
+DATABASE_URL = "postgresql+psycopg2://postgres:snh@localhost:5432/cuidame"
 
 cuidadores_falsos = [
     {
