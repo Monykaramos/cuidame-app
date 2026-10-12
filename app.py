@@ -137,7 +137,7 @@ st.markdown("""
 col_logo, col_espaco, col_link1, col_link2, col_link3, col_btn = st.columns([2, 1, 2, 2, 2, 2])
 
 with col_logo:
-    st.image("logo.png", width=130)
+    st.image("logo.png", width=80)
 
 with col_link1:
     if st.button("🔎 Buscar Cuidadores", use_container_width=True): navegar_para('home')
