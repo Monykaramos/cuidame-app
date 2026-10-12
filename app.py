@@ -158,7 +158,7 @@ st.markdown("<hr style='margin-top: 5px; margin-bottom: 30px; border-color: #e2e
 st.markdown('<div class="conteudo-principal">', unsafe_allow_html=True)
 
 if st.session_state.pagina_atual == 'home':
-    st.markdown("<h1 style='text-align: center; color: #333; font-size: 2.5rem;'>Encontre cuidadores por horas ou plantões</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: #333; font-size: 2rem;'>Encontre cuidadores por horas ou plantões</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center; color: #666; margin-bottom: 40px;'>Início &nbsp;→&nbsp; Busca de Profissionais</p>", unsafe_allow_html=True)
     
     col_vazia_esq, col_conteudo, col_vazia_dir = st.columns([1, 4, 1])
